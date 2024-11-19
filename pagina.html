@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Piedra, Papel o Tijera</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>¡Piedra, Papel o Tijera!</h1>
+    <p>Haz tu elección y compite contra la máquina.</p>
+    
+    <!-- Selección del usuario -->
+    <div class="choices">
+        <div class="choice" id="piedra">
+            <img src="piedra.png" alt="Piedra" />
+            <p>Piedra</p>
+        </div>
+        <div class="choice" id="papel">
+            <img src="papel.png" alt="Papel" />
+            <p>Papel</p>
+        </div>
+        <div class="choice" id="tijera">
+            <img src="tijeras.png" alt="Tijera" />
+            <p>Tijera</p>
+        </div>
+    </div>
+
+    <h2>Resultado</h2>
+    <div id="resultado"></div>
+    <h3>La máquina eligió: <span id="maquina-choice"></span></h3>
+
+    <script src="game.js"></script>
+</body>
+</html>
